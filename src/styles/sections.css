@@ -1,0 +1,14 @@
+/* General Section Styles */
+section {
+  padding: 5rem 1rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive Design for Sections */
+@media (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+  }
+}
